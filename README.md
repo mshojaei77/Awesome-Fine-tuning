@@ -1,9 +1,9 @@
 # Awesome-Fine-tuning
 A curated repository for fine-tuning large language models (LLMs) with various methods. Explore, contribute, and enhance LLM performance with our community.
 
-| Model | Codes and Notebooks |
-|----------|----------------------------------|
-| gpt2 | |
+| Model | Notebook | Dataset | Output |
+|----------|---------------|------------|-------------|
+| gpt2 |  |
 | google/gemma-2b | |
 | microsoft/Phi-3-mini-4k | |
 | Qwen/Qwen2-7B-Instruct | |
