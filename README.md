@@ -1,12 +1,3 @@
-# Awesome-Fine-tuning
-
-A curated list of resources for fine-tuning large language models (LLMs). Contribute to enhance LLM performance and explore various fine-tuning methods with our community!
-
-**Contribute Your Resources:** [https://github.com/mshojaei77/Awesome-Fine-tuning](https://github.com/mshojaei77/Awesome-Fine-tuning)
-
-This repository aims to provide a comprehensive and easily navigable list of fine-tuning resources for popular LLMs. The table below is a starting point, and we encourage contributions to make it even more valuable for the community.
-
-## Fine-tuning Resources Table
 
 | Model | Method | Library | Dataset Type | Notebook | Description |
 |---|---|---|---|---|---|
@@ -44,20 +35,3 @@ This repository aims to provide a comprehensive and easily navigable list of fin
 | `gemma_2_axolotl.ipynb` (**Gemma**) | Axolotl | Axolotl | General | [gemma_2_axolotl.ipynb](https://github.com/mshojaei77/Awesome-Fine-tuning/blob/main/gemma_2_axolotl.ipynb) | Fine-tuning Gemma 2 model using the Axolotl library. |
 | `gemma2(2b)_fc_ft.ipynb` (**Gemma**) | Full Fine-tuning |  | General | [gemma2(2b)_fc_ft.ipynb](https://github.com/mshojaei77/Awesome-Fine-tuning/blob/main/gemma2(2b)_fc_ft.ipynb) | Full fine-tuning of Gemma 2 2B model. |
 | `gemma_2b_qlora.ipynb` (**Gemma**) | QLoRA |  | General | [gemma_2b_qlora.ipynb](https://github.com/mshojaei77/Awesome-Fine-tuning/blob/main/gemma_2b_qlora.ipynb) | Fine-tuning Gemma 2B model using QLoRA. |
-
-## Contribution Guide
-
-We highly encourage contributions to expand this resource list! If you have a notebook or resource related to fine-tuning any LLM, please contribute by following these steps:
-
-1.  **Fork this repository.**
-2.  **Add a new row to the `Fine-tuning Resources Table`** in `readme.md` with the following information:
-    *   **Model:** The specific model name (e.g., `gemma-2b`, `Llama-3-8B`). Ideally, use the exact model name from Hugging Face Hub or the original source.  *(Please indicate the Model Family in the Model name for clarity, like `model_name (Model Family)`)*
-    *   **Method:** The fine-tuning method used (e.g., LoRA, QLoRA, Full Fine-tuning, ORPO, Distributed Finetuning, Function Calling, Custom Vocabulary, Translation, General, Faster Finetuning).
-    *   **Library:** The library used for fine-tuning (e.g., Axolotl, LLaMA-Factory, TRL, Unsloth, LitGPT, XTuner, CALM, JORA, TorchTune, Hugging Face, PyTorch, Keras, PyTorch/XLA). If no specific library is used, leave it blank.
-    *   **Dataset Type:**  The type of dataset used for fine-tuning (e.g., Chat, Translation, Summarization, Code Generation, Instruction Following, Detection Dataset, Examples). Use "General" if it's a broadly applicable notebook.
-    *   **Notebook:** A direct link to your notebook. Preferably host notebooks in a public repository like GitHub or Google Colab.
-    *   **Description:** A concise and informative description of the notebook, highlighting what it demonstrates or the task it achieves.
-
-3.  **Submit a Pull Request** with your changes.
-
-By contributing, you will help make this repository an even more valuable and comprehensive resource for the LLM community! Let's collaborate and build the best Awesome-Fine-tuning list together!
